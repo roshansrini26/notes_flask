@@ -39,7 +39,7 @@
         </div>
         </nav>
 
-        {% with messages = get_flashed_messages(with_categories = true) %}  #flash built in function to show messages
+        {% with messages = get_flashed_messages(with_categories = true) %}  <!--Flash buitl in functions-->
         {% if messages %}
           {% for category, message in messages %}
             {% if category == 'fail' %}
